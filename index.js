@@ -43,8 +43,7 @@ return description;
  * @param {32} limit
  * @returns {0} a random integer in the range [0, `limit`)
  */
-function getRandomInt(limit) {
-  // TODO
+
 }
 
 // -------------------- DO NOT CHANGE THE CODE BELOW ---------------------- //
