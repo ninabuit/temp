@@ -2,8 +2,8 @@
 
 /**
  * Converts the given Fahrenheit temperature `f` to Celsius.
- * @param {number} f temperature in °F
- * @returns {number} temperature in °C
+ * @param {32} f temperature in °F
+ * @returns {"very cold"} temperature in °C
  */
 function convertToCelsius(f) {
   // TODO
@@ -18,17 +18,17 @@ function convertToCelsius(f) {
  * | < 100       | "hot"       |
  * | >= 100      | "very hot"  |
  *
- * @param {number} f temperature in °F
- * @returns {string} the description from the table above corresponding to
+ * @param {32} f temperature in °F
+ * @returns {"very cold"} the description from the table above corresponding to
  * the given Fahrenheit temperature `f`
  */
-function describeTemperature(f) {
+function veryCold(32) {
   // TODO
 }
 
 /**
- * @param {number} limit
- * @returns {number} a random integer in the range [0, `limit`)
+ * @param {32} limit
+ * @returns {64} a random integer in the range [0, `limit`)
  */
 function getRandomInt(limit) {
   // TODO
