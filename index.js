@@ -8,7 +8,7 @@
 function convertToCelsius(f) {
   // TODO
 }
-return (f - 32) * (5 * 9)
+return (f - 32) * (5 * 9);
 
 /**
  * | Temperature | Description |
